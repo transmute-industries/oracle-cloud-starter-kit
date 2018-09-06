@@ -8,11 +8,10 @@ This tutorial is adopted from [here](http://www.oracle.com/webfolder/technetwork
 
 ```
 npm i
-npm run start
 PORT=1337 npm run start  
 ```
 
-Open http://localhost:8080/employees
+Open http://localhost:1337/transmute
 
 
 ### Deploying to Oracle Cloud
