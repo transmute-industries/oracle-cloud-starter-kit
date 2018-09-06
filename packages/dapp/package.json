@@ -10,6 +10,7 @@
     "truffle:migrate:local": "TRANSMUTE_ENV='localhost' truffle migrate --network development && cp -R ./build/contracts/ ./src/contracts/",
     "truffle:test": "truffle test",
     "truffle:migrate:rinkeby": "rm -rf ./build/contracts/ && rm -rf ./src/contracts/ && TRANSMUTE_ENV='infura' truffle migrate --network rinkeby --reset --all && cp -r ./build/contracts/ ./src/contracts",
+    "truffle:migrate:ropsten": "rm -rf ./build/contracts/ && rm -rf ./src/contracts/ && TRANSMUTE_ENV='infura' truffle migrate --network ropsten --reset --all && cp -r ./build/contracts/ ./src/contracts",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
