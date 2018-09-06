@@ -7,6 +7,8 @@ const eventStore = new T.EventStore({
   ...transmuteConfig
 });
 
+// console.log(transmuteConfig)
+
 const filter = event => {
   // process all events
   return event;
