@@ -2,7 +2,7 @@
   "runtime":{
     "majorVersion":"8"
   },
-  "command": "node server.js",
+  "command": "node ./packages/server/index.js",
   "release": {},
   "notes": "",
   "type":"web",

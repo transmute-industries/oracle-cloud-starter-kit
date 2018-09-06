@@ -4,6 +4,18 @@ Get Stated with a Node.js app that talks to Ethereum and IPFS on Oracle Cloud.
 
 This tutorial is adopted from [here](http://www.oracle.com/webfolder/technetwork/tutorials/obe/cloud/apaas/node/node-github-accs/node-github-accs.html).
 
+### Getting Started Locally
+
+```
+npm i
+npm run start
+```
+
+Open http://localhost:8080/employees
+
+
+### Deploying to Oracle Cloud
+
 Use data center: `us`
 
 Or modify this example curl url after signing up for oracle cloud.
@@ -27,7 +39,7 @@ curl -X POST -u USERNAME:PASSWORD \
   -F "runtime=node" \
   -F "subscription=HOURLY" \
   -F "manifest=@manifest.json"\
-  -F "gitRepoUrl=git@github.com:transmute-industries/oracle-cloud-starter-kit.git"  
+  -F "gitRepoUrl=https://github.com/transmute-industries/oracle-cloud-starter-kit.git"  
 ```
 
 
